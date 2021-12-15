@@ -1,0 +1,103 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300;500;700&family=Roboto:wght@300;400;700&display=swap");
+nav {
+    background: var(--clr-primary-1);
+    box-shadow: var(--light-shadow);
+    clear: both;
+    position: relative;
+    margin-bottom: 0.5%;
+    padding: 10px;
+}
+
+.nav-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem;
+}
+
+.logo-navbar {
+    display: flex;
+    align-items: center;
+    justify-self: center;
+    height: 40px;
+    letter-spacing: 0.1rem;
+    color: hsl(209, 34%, 30%);
+}
+.logo-navbar img {
+    padding: 20%;
+    width: 60%;
+}
+
+.nav-toggle {
+    font-size: 1.5rem;
+    color: var(--clr-primary-5);
+    background: transparent;
+    border-color: transparent;
+    transition: var(--transition);
+    cursor: pointer;
+}
+.nav-toggle:hover {
+    color: var(--clr-primary-1);
+    transform: rotate(90deg);
+}
+
+.nav-search {
+    /* margin-right: 15%; */
+}
+
+.nav-links {
+    font-family: "Roboto Slab";
+    color: black;
+    font-size: 0.9rem;
+    text-transform: capitalize;
+    display: block;
+    padding: 0.5rem 1rem;
+    transition: var(--transition);
+}
+.nav-links:hover {
+    background: var(--clr-primary-3);
+    color: var(--clr-primary-2);
+    padding-left: 1.5rem;
+}
+
+.links-container {
+    height: 0;
+    overflow: hidden;
+    transition: var(--transition);
+}
+
+@media screen and (max-width: 900px) {
+    .nav-search {
+        display: none;
+    }
+}
+@media screen and (min-width: 900px) {
+    .nav-center {
+        max-width: 2230px;
+        margin: 0 auto;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 1rem;
+    }
+    .nav-header {
+        padding: 0;
+    }
+    .nav-toggle {
+        display: none;
+    }
+    .links-container {
+        height: auto !important;
+    }
+    .links {
+        display: flex;
+    }
+    .nav-links {
+        padding: 0;
+        margin: 0 0.5rem;
+    }
+    .nav-links:hover {
+        padding: 0;
+        background: transparent;
+    }
+}

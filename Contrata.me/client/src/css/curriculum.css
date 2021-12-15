@@ -1,0 +1,46 @@
+.curriculum-pg{
+    margin-bottom: 20px;
+    /* padding: 20px 30px; */
+    min-height: 110vh;
+}
+.cur-data{
+    position: relative;
+    margin: 0 auto;
+    display:flex;
+    width: 85%;
+}
+.cur-name{
+    background-color: black;
+    width: 85%;
+    margin-top: 40px;
+    position: relative;
+    margin: 0 auto;
+    margin-top: 25px;
+    color: white;
+    height: 15%;
+    text-align: center;
+    font-weight: bold;
+    font-size: 250%;
+}
+.cur-datos{
+    background-color: rgba(151, 206, 151, 0.37);
+}
+.cur-perfil{
+    background-color: rgba(253, 230, 192, 0.356);
+}
+.cur-datos, .cur-perfil{
+    float: left;
+    border: 1px solid;
+    padding: 50px 40px 50px 40px;
+}
+.cur-lopc{
+    width: 85%;
+    font-size: 150%;
+}
+.cur-ropc{
+    width: 90%;
+    font-size: 150%;
+}
+.txt-ngr{
+    font-weight: bold;
+}

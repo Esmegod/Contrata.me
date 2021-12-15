@@ -1,0 +1,45 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap");
+
+.login {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+    padding: 20px 30px;
+    min-height: 100vh;
+}
+
+.login-square {
+    display: flex;
+    margin-top: 2.5%;
+    padding: 1.5%;
+    width: 75%;
+    height: 600px;
+    text-align: center;
+    box-shadow: 1px 2px 5px 0px black;
+    background-color: #ddeff9;
+}
+
+.login-right {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 550px;
+    width: 55%;
+    font-family: "Roboto";
+    font-weight: 700;
+}
+
+.login-left {
+    height: 550px;
+    width: 45%;
+}
+
+.login-label {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}

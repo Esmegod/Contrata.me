@@ -1,0 +1,37 @@
+.home{
+    min-height: 100vh;
+}
+.Title {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin:20px 0px 50px 0px;
+  padding: 10px 0px 20px 0px;
+  background-color: #C1E0E9;
+  color: #66ABBF;
+}
+.home-buttons{
+    text-align: center;
+    font-size: 24px;
+}
+.r1,.r2,.r3{
+    width: 200px;
+    height: 150px;
+}
+.r1 {
+    position: absolute;
+    left: 23%;
+}
+.r2 {
+    position: absolute;
+    left: 44%;
+}
+
+.r3 {
+    position: absolute;
+    right: 23%;
+}
+
+.c2{
+    margin-top: 15%;
+}

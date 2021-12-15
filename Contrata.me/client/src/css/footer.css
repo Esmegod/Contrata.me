@@ -1,0 +1,72 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300;500;700&family=Roboto:wght@300;400;700&display=swap");
+
+footer {
+    background: var(--clr-primary-12);
+    box-shadow: var(--light-shadow-invert);
+    /* width: 100%; */
+    /* clear: both;
+    bottom: 0;
+    height: 100px;
+    left: 0;
+    position: absolute;
+    width: 100%; */
+}
+
+.foo-links-container {
+    height: 0;
+    overflow: hidden;
+    transition: var(--transition);
+}
+.foo-link {
+    font-family: "Roboto Slab";
+    color: var(--clr-primary-7);
+    font-size: 0.9rem;
+    text-transform: capitalize;
+    display: block;
+    padding: 0.5rem 1rem;
+    transition: var(--transition);
+}
+.foo-link:hover {
+    background: var(--clr-primary-10);
+    color: var(--clr-primary-9);
+    padding-left: 1.5rem;
+}
+.social-icons {
+    display: none;
+}
+
+@media screen and (min-width: 900px) {
+    .foo-center {
+        max-width: 2230px;
+        margin: 0 auto;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 1rem;
+    }
+    .foo-links-container {
+        height: auto !important;
+    }
+    .foo-links {
+        display: flex;
+    }
+    .foo-link {
+        padding: 0;
+        margin: 0 0.5rem;
+    }
+    .foo-link:hover {
+        padding: 0;
+        background: transparent;
+    }
+    .social-icons {
+        display: flex;
+    }
+    .social-icons a {
+        margin: 0 0.5rem;
+        color: var(--clr-primary-7);
+        transition: var(--transition);
+    }
+    .social-icons a:hover {
+        color: var(--clr-primary-9);
+    }
+}
